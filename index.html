@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Multiple Accordion</title>
+</head> 
+<body class="mt-44 flex justify-center items-center"> 
+    <div id="accordionContainer" class="flex flex-col w-[40%]">
+        <h1 class="text-3xl font-semibold text-center my-8">Multiple Accordion</h1>
+        <div class="accordionHeader hover:bg-zinc-200 hover:cursor-pointer text-2xl flex items-center justify-between border h-[4rem] px-3">
+            <p class="accordionTitle text-3xl">Tab 1</p>
+            <i class="fa-solid fa-chevron-down transition-all duration-200"></i>
+        </div>
+        <div class="accordionBody bg-green-200  border-x h-0 overflow-hidden  flex items-center px-3 transition-all duration-200">
+            <p class="accordionDescription text-2xl">
+                Lorem ipsum dolor sit amet consectetur.
+            </p>
+        </div>
+        <div class="accordionHeader hover:bg-zinc-200 hover:cursor-pointer text-2xl flex items-center justify-between border h-[4rem] px-3">
+            <p class="accordionTitle text-3xl">Tab 2</p>
+            <i class="fa-solid fa-chevron-down transition-all duration-200"></i>
+        </div>
+        <div class="accordionBody bg-green-200  border-x h-0 overflow-hidden  flex items-center px-3 transition-all duration-200">
+            <p class="accordionDescription text-2xl">
+                Lorem ipsum dolor sit amet consectetur.
+            </p>
+        </div>
+        <div class="accordionHeader hover:bg-zinc-200 hover:cursor-pointer text-2xl flex items-center justify-between border h-[4rem] px-3">
+            <p class="accordionTitle text-3xl">Tab 3</p>
+            <i class="fa-solid fa-chevron-down transition-all duration-200"></i>
+        </div>
+        <div class="accordionBody bg-green-200  border-x border-b h-0 overflow-hidden  flex items-center px-3 transition-all duration-200">
+            <p class="accordionDescription text-2xl">
+                Lorem ipsum dolor sit amet consectetur.
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
